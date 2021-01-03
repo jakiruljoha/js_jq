@@ -1,0 +1,199 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+			 /* common classes start */
+    .c_padding{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .heading_2 {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+    .mb_90 {
+        margin-bottom: 20px;
+    }
+    /* common classes end */
+	 /* header start */
+     .menu li a:hover {
+        color: #f05c5c !important;
+        background-color: transparent;
+    }
+    .md_user_item {
+        width: 100%;
+        border-radius: 3px;
+    }
+    .md_user_item li a {
+        padding: 0 7px !important;
+    }
+    .search_item {
+        min-width: 100%;
+    }
+    .md_search_input {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .md-search .search_submit {
+        height: 40px;
+        width: 30%;
+    }
+    .logo{
+        width: 85%;
+    }
+    /* header end */
+    /* banner start */
+    .banner {
+        min-height: 522px;
+    }
+    .banner_content h1 {
+        padding-top: 120px;
+        margin-bottom: 250px;
+        font-size: 39px;
+    }
+    /* banner end */
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+			 /* common classes start */
+    .c_padding{
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .heading_2 {
+        font-size: 25px;
+    }
+    .mb_90 {
+        margin-bottom: 30px;
+    }
+    /* common classes end */
+	 /* header start */
+     .menu li a:hover {
+        color: #f05c5c !important;
+        background-color: transparent;
+    }
+    .md_user_item {
+        width: 87%;
+        border-radius: 3px;
+    }
+    .logo{
+        width: 85%;
+    }
+    /* header end */
+    /* banner start */
+    .banner {
+        min-height: 640px;
+    }
+    .banner_content h1 {
+        padding-top: 230px;
+        margin-bottom: 315px;
+        font-size: 39px;
+    }
+    /* banner end */
+}
+	      
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+			 /* common classes start */
+    .c_padding{
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .heading_2 {
+        font-size: 25px;
+    }
+    .mb_90 {
+        margin-bottom: 30px;
+    }
+    /* common classes end */
+    /* header start */
+    .menu li a:hover {
+        color: #f05c5c !important;
+        background-color: transparent;
+    }
+    .logo{
+        width: 85%;
+    }
+    /* header end */
+    /* banner start */
+    .banner {
+        min-height: 670px;
+    }
+    .banner_content h1 {
+        padding-top: 230px;
+        margin-bottom: 300px;
+    }
+    /* banner end */
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+			 /* common classes start */
+    .c_padding{
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+    .mb_90 {
+        margin-bottom: 60px;
+    }
+    /* common classes end */
+    /* header start */
+    .user_item,.search_item{
+        top: 144%;
+    } 
+    /* header end */
+    
+    /* banner start */
+    .banner_content h1 {
+        padding-top: 230px;
+        margin-bottom: 315px;
+    }
+    /* banner end */
+}
+			
+
+/*X-devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	/*features start*/
+
+}
+
+/*Extra large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+				
+}
+
+/*Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1799.98px) {
+			 /* common classes start */
+    .c_padding{
+        padding-top: 90px;
+        padding-bottom: 80px;
+    }
+    /* common classes end */
+    /* banner start */
+    .banner {
+        min-height: 900px;
+    }
+    .banner_content h1 {
+        padding-top: 400px;
+    }
+    /* banner end */
+}
+
+/*Extra Extra large devices (large desktops, 1800px and up)*/
+@media (min-width: 1800px) {
+ /* common classes start */
+    .c_padding{
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+    /* common classes end */
+    /* banner start */
+    .banner {
+        min-height: 900px;
+    }
+    .banner_content h1 {
+        padding-top: 400px;
+    }
+    /* banner end */
+}
